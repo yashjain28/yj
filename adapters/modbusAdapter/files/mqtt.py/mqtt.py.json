@@ -1,0 +1,9 @@
+{
+    "adaptor_name": "modbusAdapter",
+    "group": "",
+    "name": "mqtt.py",
+    "owner": "",
+    "path_name": "mqtt.py",
+    "permissions": "",
+    "version": 1
+}

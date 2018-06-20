@@ -1,0 +1,9 @@
+{
+    "adaptor_name": "modbusAdapter",
+    "group": "",
+    "name": "modbus-server-adapter.py",
+    "owner": "",
+    "path_name": "modbus-server-adapter.py",
+    "permissions": "",
+    "version": 1
+}

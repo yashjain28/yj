@@ -1,0 +1,52 @@
+{
+    "app_id": "eecb96b20b82989d96e5b69f827b",
+    "collection_id": "b6c7c1b20b82f5bcecc8b5c38db101",
+    "items": [],
+    "name": "modbus_holdingregisters",
+    "permissions": {
+        "Administrator": 7,
+        "Authenticated": 7
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "edgeid",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "modbushost",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "unit_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "base_addr",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "addr_length",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "data",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "timestamp",
+            "ColumnType": "timestamp",
+            "PK": false
+        }
+    ]
+}

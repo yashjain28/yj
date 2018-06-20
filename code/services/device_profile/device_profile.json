@@ -1,0 +1,16 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 1,
+    "dependencies": "clearblade,qLib",
+    "execution_timeout": 0,
+    "logging_enabled": "false",
+    "name": "device_profile",
+    "params": [],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "device_profile.js"
+}

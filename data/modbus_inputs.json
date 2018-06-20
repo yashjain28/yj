@@ -1,0 +1,52 @@
+{
+    "app_id": "eecb96b20b82989d96e5b69f827b",
+    "collection_id": "b8c7c1b20bce8aede2b19ae7a332",
+    "items": [],
+    "name": "modbus_inputs",
+    "permissions": {
+        "Administrator": 7,
+        "Authenticated": 7
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "edgeid",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "modbushost",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "unit_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "base_addr",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "addr_length",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "bitcode",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "timestamp",
+            "ColumnType": "timestamp",
+            "PK": false
+        }
+    ]
+}

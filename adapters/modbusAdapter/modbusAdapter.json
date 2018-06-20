@@ -1,0 +1,14 @@
+{
+    "architecture": "MacOS64",
+    "deploy_command": "./deploy.sh",
+    "description": "",
+    "logs_command": "journalctl -u modbus.service -n100",
+    "name": "modbusAdapter",
+    "os": "",
+    "protocol": "",
+    "start_command": "./start.sh",
+    "status_command": "./status.sh",
+    "stop_command": "./stop.sh",
+    "undeploy_command": "./undeploy.sh",
+    "version": 13
+}
